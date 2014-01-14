@@ -1203,7 +1203,7 @@ static const luaL_Reg alienlib[] = {
   {NULL, NULL},
 };
 
-int luaopen_alien_c(lua_State *L) {
+__declspec(dllexport) int luaopen_alien_c(lua_State *L) {
   alien_Library *al;
 
   #ifdef WINDOWS

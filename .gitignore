@@ -20,3 +20,5 @@ Makefile
 /libtool
 /stamp-h1
 /alien*.rockspec
+Debug/
+Release/
