@@ -23,9 +23,6 @@
     <None Include="src\alien.def">
       <Filter>リソース ファイル</Filter>
     </None>
-    <None Include="libffi-6.dll">
-      <Filter>リソース ファイル</Filter>
-    </None>
     <None Include="libffi.def">
       <Filter>リソース ファイル</Filter>
     </None>
@@ -48,5 +45,8 @@
     <Library Include="libffi.lib">
       <Filter>リソース ファイル</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libffi.dll" />
   </ItemGroup>
 </Project>
